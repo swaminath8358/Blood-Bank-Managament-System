@@ -99,35 +99,35 @@ tables:
 
 
 /*inserting dummy data to the employee details table*/
-INSERT INTO `bbms`.`emp_details` (`emp_id`, `empName`, `empMail`, `empPhone`, `empAddress`) VALUES ('1', 'Anand', 'anand123@gmail.com', '9854765214', 'Kannur');
-INSERT INTO `bbms`.`emp_details` (`emp_id`, `empName`, `empMail`, `empPhone`, `empAddress`) VALUES ('2', 'Arya', 'arya199@hotmail.com', '9644712385', 'Kannur');
-INSERT INTO `bbms`.`emp_details` (`emp_id`, `empName`, `empMail`, `empPhone`, `empAddress`) VALUES ('3', 'Revathi', 'rev23@gmail.com', '6282478945', 'Kozhikode');
-INSERT INTO `bbms`.`emp_details` (`emp_id`, `empName`, `empMail`, `empPhone`, `empAddress`) VALUES ('4', 'Sanoop', 'san00p92@gmail.com', '9447545896', 'Kasargode');
+INSERT INTO `bbms`.`emp_details` (`emp_id`, `empName`, `empMail`, `empPhone`, `empAddress`) VALUES ('1', 'Swaminath', 'Swaminath@gmail.com', '9854765214', 'Pune');
+INSERT INTO `bbms`.`emp_details` (`emp_id`, `empName`, `empMail`, `empPhone`, `empAddress`) VALUES ('2', 'Arya', 'arya199@hotmail.com', '9644712385', 'Solapur');
+INSERT INTO `bbms`.`emp_details` (`emp_id`, `empName`, `empMail`, `empPhone`, `empAddress`) VALUES ('3', 'Revathi', 'rev23@gmail.com', '6282478945', 'Pune');
+INSERT INTO `bbms`.`emp_details` (`emp_id`, `empName`, `empMail`, `empPhone`, `empAddress`) VALUES ('4', 'Sanoop', 'san00p92@gmail.com', '9447545896', 'Pune');
 
 
 /*inserting details to the employee login table*/
-INSERT INTO `bbms`.`emp_login` (`emp_id`, `userName`, `password`) VALUES ('1', 'anand', 'anand@123');
+INSERT INTO `bbms`.`emp_login` (`emp_id`, `userName`, `password`) VALUES ('1', 'Swaminath', 'anand@123');
 INSERT INTO `bbms`.`emp_login` (`emp_id`, `userName`, `password`) VALUES ('2', 'arya', 'arya@123');
 INSERT INTO `bbms`.`emp_login` (`emp_id`, `userName`, `password`) VALUES ('3', 'revathi', 'revathi@123');
 INSERT INTO `bbms`.`emp_login` (`emp_id`, `userName`, `password`) VALUES ('4', 'sanoop', 'sanoop@123');
 
 
 /*inserting some dummy data to the user details table*/
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('1', 'Ron', '24', 'M', 'O+ve', '9847561245', 'ronroy@gmail.com', 'Payyanur');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('2', 'Sajan', '34', 'M', 'B-ve', '9647524561', 'sajank@hotmail.com', 'Kannur');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('3', 'Sheethal', '26', 'F', 'O+ve', '6247285479', 'sheethalkumar@gmail.com', 'Kandoth');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('4', 'Anirudh', '22', 'M', 'O+ve', '9854766524', 'ani@gmail.com', 'Kannur');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('5', 'Arathi', '30', 'F', 'B+ve', '6287458479', 'arathi17@gmail.com', 'Kasargode');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('6', 'Ajoy', '20', 'M', 'AB-ve', '9854756418', 'ajoyk@gmail.com', 'Kannur');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('7', 'Sherya', '33', 'F', 'AB-ve', '9847512457', 'shreyasheyas@gmail.com', 'Kannur');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('8', 'Rajan', '44', 'M', 'A+ve', '6814754718', 'rajankayyil@gmail.com', 'Payyanur');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('9', 'Manohar', '38', 'M', 'A-ve', '9857462541', 'manoharraj@gmail.com', 'Payyanur');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('10', 'Anaina', '23', 'F', 'A-ve', '9847516842', 'anaina@gmail.com', 'Kannur');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('11', 'Arundathi', '20', 'F', 'O+ve', '6847125489', 'arundathi@gmail.com', 'Kannur');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('12', 'Lakshmi', '30', 'F', 'A+ve', '6282478514', 'lakshmikirshna@gmail.com', 'Payynur');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('13', 'Akash', '22', 'M', 'Pnull', '9857489576', 'akashaja@gmail.com', 'Kannur');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('14', 'Zidan', '30', 'M', 'B+ve', '6821478596', 'mzidan@gmail.com', 'Payyanur');
-INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('15', 'Akshay', '32', 'M', 'B+ve', '9685745219', 'akshayaj@gmai..com', 'Payyanur');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('1', 'Ron', '24', 'M', 'O+ve', '9847561245', 'ronroy@gmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('2', 'Sajan', '34', 'M', 'B-ve', '9647524561', 'sajank@hotmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('3', 'Sheethal', '26', 'F', 'O+ve', '6247285479', 'sheethalkumar@gmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('4', 'Anirudh', '22', 'M', 'O+ve', '9854766524', 'ani@gmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('5', 'Arathi', '30', 'F', 'B+ve', '6287458479', 'arathi17@gmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('6', 'Ajoy', '20', 'M', 'AB-ve', '9854756418', 'ajoyk@gmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('7', 'Sherya', '33', 'F', 'AB-ve', '9847512457', 'shreyasheyas@gmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('8', 'Rajan', '44', 'M', 'A+ve', '6814754718', 'rajankayyil@gmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('9', 'Manohar', '38', 'M', 'A-ve', '9857462541', 'manoharraj@gmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('10', 'Anaina', '23', 'F', 'A-ve', '9847516842', 'anaina@gmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('11', 'Arundathi', '20', 'F', 'O+ve', '6847125489', 'arundathi@gmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('12', 'Lakshmi', '30', 'F', 'A+ve', '6282478514', 'lakshmikirshna@gmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('13', 'Akash', '22', 'M', 'Pnull', '9857489576', 'akashaja@gmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('14', 'Zidan', '30', 'M', 'B+ve', '6821478596', 'mzidan@gmail.com', 'Pune');
+INSERT INTO `bbms`.`user_details` (`user_id`, `userFName`, `userAge`, `userGender`, `userBloodGroup`, `userPhone`, `userMail`, `userPlace`) VALUES ('15', 'Akshay', '32', 'M', 'B+ve', '9685745219', 'akshayaj@gmai..com', 'Pune');
 
 
 
